@@ -4,9 +4,9 @@ public class Week2 {
     public static void main(String[] args) {
         Animal randomAnimal = new Animal("`");
         randomAnimal.talk();
-        Cat cuteOrangeCat = new Cat("Garfield");
+        Cat cuteOrangeCat = new Cat("Garfield", 4);
         cuteOrangeCat.talk();
-        Cat blackCat = new Cat("BlackCat");
+        Cat blackCat = new Cat("BlackCat", 4);
         blackCat.talk();
 
         randomAnimal.amIAlive();

@@ -1,10 +1,15 @@
-public class Cat extends Animal {
-    public Cat(String name) {
-        super(name);
+public class Cat extends Walking {
+    public Cat(String name, int legs) {
+        super(name, legs);
     }
 
+    @Override
     public void talk() {
         System.out.println("Meow!");
-        System.out.println(this.name);
+    }
+
+    @Override
+    public void walk() {
+        System.out.println("I am a cat who is walking!");
     }
 }
